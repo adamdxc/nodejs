@@ -1,5 +1,4 @@
 # nodejs
 
 [![Build Status](https://travis-ci.org/adamdxc/nodejs.svg?branch=master)](https://travis-ci.org/adamdxc/nodejs)
-
-![GitHub package version](https://img.shields.io/github/package-json/v/badges/shields.svg)
+[![Packagist](https://img.shields.io/packagist/v/onwwward/laravel-bugherd.svg?maxAge=2592000)]()
