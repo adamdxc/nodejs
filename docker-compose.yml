@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: leead/mynodejs
+    image: leead/nodejs-alpine
     build: ./web-site
     command: node index.js
     ports:
