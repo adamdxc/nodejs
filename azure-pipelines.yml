@@ -12,6 +12,6 @@ variables:
 
 steps:
 - script: 
-    cd $(working_dir)
+    cd $(working_dir) &&
     docker build -f Dockerfile -t $(imageName) .
   displayName: 'docker build'
