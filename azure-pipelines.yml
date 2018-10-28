@@ -8,7 +8,10 @@ pool:
 
 variables:
   imageName: 'nodejs-alpine:$(build.buildId)'
+  working_dir: 'web-site'
 
 steps:
-- script: docker build -f web-site/Dockerfile -t $(imageName) .
+- script: 
+    cd $(working_dir)
+    docker build -f Dockerfile -t $(imageName) .
   displayName: 'docker build'
